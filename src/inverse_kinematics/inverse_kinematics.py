@@ -1,7 +1,7 @@
 import numpy as np
-from utils.utils import adjoint_transformation, matrix_logarithm
-from fk.forward_kinematics import forward_kinematics
-from jacobian.space_jacobian import space_jacobian
+from src.utils.utils import adjoint_transformation, matrix_logarithm
+from src.fk.forward_kinematics import forward_kinematics
+from src.jacobian.space_jacobian import space_jacobian
 
 def inverse_kinematics(S, M, T_goal, q_initial, threshold=1e-3, max_iterations=100):
     """

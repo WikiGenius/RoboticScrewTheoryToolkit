@@ -1,5 +1,5 @@
 import numpy as np
-from utils.utils import adjoint_transformation, exponential_map
+from src.utils.utils import adjoint_transformation, exponential_map
 
 def space_jacobian(S, q):
     """

@@ -1,6 +1,6 @@
 import numpy as np
 from scipy.linalg import expm
-from utils.utils import exponential_map
+from src.utils.utils import exponential_map
 def forward_kinematics(M, S, q):
     """
     Compute Forward Kinematics for a robotic manipulator using the Product of Exponentials formula.
