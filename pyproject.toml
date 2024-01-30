@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "roboticscrewtheorytoolkit"
+version = "0.1.0"
+description = ""
+authors = ["WikiGenius <muhammedelyamani92@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.3"
+scipy = "^1.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
