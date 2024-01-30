@@ -149,4 +149,9 @@ def normalize_vector(v):
     return v / norm
 
 
-# Add additional utility functions as needed
+def get_q_d_normalized(q_d, epsilon = 1e-4):
+
+  q_d_normalized = np.mod(q_d, 2 * np.pi)
+  q_d_normalized = np.round(np.where(np.abs(q_d_normalized - 2 * np.pi) < epsilon, 0, q_d_normalized),2)
+
+  return q_d_normalized
