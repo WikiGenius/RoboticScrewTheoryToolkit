@@ -17,3 +17,16 @@ git clone https://github.com/WikiGenius/RoboticScrewTheoryToolkit.git
 cd RoboticScrewTheoryToolkit
 # Assuming you're using Poetry for dependency management
 poetry install
+```
+
+## Usage
+Detailed usage examples for each module are provided in the notebooks.
+
+## Citation
+If you use this toolkit in your research, please cite it as follows:
+
+Elyamani, M. (2024). Robotic Screw Theory Toolkit [Software]. GitHub. https://github.com/WikiGenius/RoboticScrewTheoryToolkit.git
+
+
+## Acknowledgments
+Special thanks to Professor Daniel Martins for his valuable insights on screw theory and its applications in robotics. Additionally, heartfelt appreciation goes to Dr. Madi Babaiasl for his contributions and guidance in the field. Their expertise has been instrumental in the development of this toolkit.
